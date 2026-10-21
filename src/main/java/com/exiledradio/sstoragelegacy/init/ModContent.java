@@ -52,6 +52,17 @@ public final class ModContent {
         public ItemStack createIcon() {
             return StorageItemData.setWoodType(new ItemStack(BARREL), WoodType.SPRUCE);
         }
+
+        /** Everything else (controller, I/O blocks, tools, upgrades) above the storages, each group in registration order. */
+        @net.minecraftforge.fml.relauncher.SideOnly(net.minecraftforge.fml.relauncher.Side.CLIENT)
+        @Override
+        public void displayAllRelevantItems(@Nonnull net.minecraft.util.NonNullList<ItemStack> items) {
+            super.displayAllRelevantItems(items);
+            List<ItemStack> all = new ArrayList<>(items);
+            items.clear();
+            all.stream().filter(stack -> !(stack.getItem() instanceof com.exiledradio.sstoragelegacy.item.StorageBlockItem)).forEach(items::add);
+            all.stream().filter(stack -> stack.getItem() instanceof com.exiledradio.sstoragelegacy.item.StorageBlockItem).forEach(items::add);
+        }
     };
 
     /** The wood barrel, which most code (recipes, dye, JEI examples) starts from. */
