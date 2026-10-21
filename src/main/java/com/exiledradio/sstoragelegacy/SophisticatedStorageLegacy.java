@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
         modid = SophisticatedStorageLegacy.MODID,
         name = SophisticatedStorageLegacy.NAME,
         version = SophisticatedStorageLegacy.VERSION,
-        dependencies = "required-after:" + SophisticatedCoreLegacy.MODID + "@[1.2.0,)"
+        dependencies = "required-after:" + SophisticatedCoreLegacy.MODID + "@[1.1.0,)"
 )
 public class SophisticatedStorageLegacy {
 
