@@ -151,6 +151,33 @@ public class DevCommand extends CommandBase {
             }
             fake.inventory.clear();
             sender.sendMessage(new TextComponentString(result.toString()));
+        } else if ("shiftin".equals(args[0]) && args.length >= 6) {
+            // Shift-clicks an item from a fake player's hotbar with the storage's first upgrade tab open:
+            // shiftin <x> <y> <z> <item> <count>. Reports what's left in the tab and the hotbar.
+            net.minecraftforge.common.util.FakePlayer fake = net.minecraftforge.common.util.FakePlayerFactory.getMinecraft((net.minecraft.world.WorldServer) sender.getEntityWorld());
+            fake.inventory.clear();
+            fake.inventory.setInventorySlotContents(0, new ItemStack(getItemByText(sender, args[4]), parseInt(args[5], 1)));
+            com.exiledradio.sstoragelegacy.common.gui.StorageBlockContainer container = new com.exiledradio.sstoragelegacy.common.gui.StorageBlockContainer(fake, (StorageTileEntity) te);
+            com.exiledradio.scorelegacy.common.gui.UpgradeContainerBase<?, ?> tab = container.getUpgradeContainers().values().stream().findFirst().orElse(null);
+            if (tab != null) {
+                tab.setIsOpen(true);
+            }
+            int hotbarSlot = -1;
+            for (net.minecraft.inventory.Slot slot : container.inventorySlots) {
+                if (slot.inventory == fake.inventory && slot.getSlotIndex() == 0) {
+                    hotbarSlot = slot.slotNumber;
+                }
+            }
+            container.slotClick(hotbarSlot, 0, net.minecraft.inventory.ClickType.QUICK_MOVE, fake);
+            int inTab = 0;
+            if (tab != null) {
+                for (net.minecraft.inventory.Slot slot : tab.getSlots()) {
+                    inTab += slot.getStack().getCount();
+                }
+            }
+            sender.sendMessage(new TextComponentString("Shift-in with tab " + (tab == null ? "none" : tab.getUpgradeStack().getItem().getRegistryName())
+                    + ": in tab " + inTab + ", left in hotbar " + fake.inventory.getStackInSlot(0).getCount()));
+            fake.inventory.clear();
         } else if ("use".equals(args[0]) && args.length >= 5) {
             // A fake player right-clicks the storage holding an item (packing tape).
             net.minecraft.world.World world = sender.getEntityWorld();
