@@ -1,0 +1,20 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "S": {
+      "item": "sstoragelegacy:limited_iron_barrel_1"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:limited_gold_barrel_1"
+  }
+}

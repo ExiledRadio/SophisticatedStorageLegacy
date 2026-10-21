@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "GGG",
+    "GTG",
+    "GGG"
+  ],
+  "key": {
+    "T": {
+      "item": "sstoragelegacy:basic_to_iron_tier_upgrade"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:basic_to_gold_tier_upgrade"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ONO",
+    "OSO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "type": "forge:ore_dict",
+      "ore": "obsidian"
+    },
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "netherStar"
+    },
+    "S": {
+      "item": "sstoragelegacy:stack_upgrade_tier_4"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:stack_upgrade_tier_5"
+  }
+}

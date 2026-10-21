@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "FSF",
+    "SBS",
+    "FSF"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "B": {
+      "item": "sstoragelegacy:upgrade_base"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:stack_downgrade_tier_2"
+  }
+}

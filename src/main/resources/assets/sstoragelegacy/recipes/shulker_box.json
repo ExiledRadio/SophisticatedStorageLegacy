@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " S",
+    "RC",
+    " S"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "chest"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:shulker_box"
+  }
+}

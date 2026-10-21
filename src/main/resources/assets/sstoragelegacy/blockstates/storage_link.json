@@ -1,0 +1,30 @@
+{
+    "variants": {
+        "facing=down": {
+            "model": "sstoragelegacy:storage_link",
+            "x": 180
+        },
+        "facing=east": {
+            "model": "sstoragelegacy:storage_link",
+            "x": 90,
+            "y": 90
+        },
+        "facing=north": {
+            "model": "sstoragelegacy:storage_link",
+            "x": 90
+        },
+        "facing=south": {
+            "model": "sstoragelegacy:storage_link",
+            "x": 90,
+            "y": 180
+        },
+        "facing=up": {
+            "model": "sstoragelegacy:storage_link"
+        },
+        "facing=west": {
+            "model": "sstoragelegacy:storage_link",
+            "x": 90,
+            "y": 270
+        }
+    }
+}

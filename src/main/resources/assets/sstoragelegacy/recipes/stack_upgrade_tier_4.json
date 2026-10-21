@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "DDD",
+    "DSD",
+    "BDB"
+  ],
+  "key": {
+    "S": {
+      "item": "sstoragelegacy:stack_upgrade_tier_3"
+    },
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "blockDiamond"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:stack_upgrade_tier_4"
+  }
+}

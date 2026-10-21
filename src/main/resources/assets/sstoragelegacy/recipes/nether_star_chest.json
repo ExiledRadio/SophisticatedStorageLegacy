@@ -1,0 +1,24 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "ONO",
+    "OSO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "type": "forge:ore_dict",
+      "ore": "obsidian"
+    },
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "netherStar"
+    },
+    "S": {
+      "item": "sstoragelegacy:diamond_chest"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:nether_star_chest"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "sstoragelegacy:block/storage_io_top",
+    "bottom": "sstoragelegacy:block/storage_io_top",
+    "side": "sstoragelegacy:block/storage_io_side"
+  }
+}

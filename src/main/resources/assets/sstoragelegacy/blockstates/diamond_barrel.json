@@ -1,0 +1,3581 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_oak_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "spruce",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_spruce_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "birch",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_birch_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "jungle",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_jungle_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "acacia",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_acacia_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "dark_oak",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_dark_oak_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "crimson",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_crimson_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "warped",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "tint": "main|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_main_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "tint": "accent|both"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tintable_accent_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "show_tier": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/tier_diamond_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "packed": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/packed_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "locked": "true"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/locked_flat",
+        "x": 270,
+        "y": 270
+      }
+    }
+  ],
+  "__comment": "Generated by tools/gen_barrel_models.py from Sophisticated Storage (c) P3pp3rF1y, GPLv3."
+}

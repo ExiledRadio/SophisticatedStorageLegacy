@@ -1,0 +1,9 @@
+{
+  "recipes": {
+    "storage_tier_upgrade": "com.exiledradio.sstoragelegacy.crafting.StorageTierUpgradeRecipe$Factory",
+    "storage_tier_upgrade_shapeless": "com.exiledradio.sstoragelegacy.crafting.StorageTierUpgradeShapelessRecipe$Factory",
+    "shulker_box_from_vanilla": "com.exiledradio.sstoragelegacy.crafting.ShulkerBoxFromVanillaRecipe$Factory",
+    "barrel_material": "com.exiledradio.sstoragelegacy.crafting.BarrelMaterialRecipe$Factory",
+    "upgrade_next_tier": "com.exiledradio.scorelegacy.crafting.UpgradeNextTierRecipe$Factory"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "S",
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": {
+      "item": "sstoragelegacy:nether_star_chest"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:nether_star_shulker_box"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "SRS",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:planks",
+      "data": 1
+    },
+    "S": {
+      "item": "minecraft:wooden_slab",
+      "data": 1
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:limited_barrel_2",
+    "nbt": {
+      "woodType": "spruce"
+    }
+  }
+}

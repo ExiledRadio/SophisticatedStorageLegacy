@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " I ",
+    "ISI",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "sstoragelegacy:stack_upgrade_tier_1_plus"
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "blockIron"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:stack_upgrade_tier_2"
+  }
+}

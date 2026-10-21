@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "SRS",
+    "PBP",
+    "SGS"
+  ],
+  "key": {
+    "B": [
+      {
+        "item": "sstoragelegacy:barrel"
+      },
+      {
+        "item": "sstoragelegacy:chest"
+      }
+    ],
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "P": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:storage_input"
+  }
+}

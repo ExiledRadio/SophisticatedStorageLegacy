@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "DDD",
+    "DTD",
+    "DDD"
+  ],
+  "key": {
+    "T": {
+      "item": "sstoragelegacy:iron_to_gold_tier_upgrade"
+    },
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:iron_to_diamond_tier_upgrade"
+  }
+}

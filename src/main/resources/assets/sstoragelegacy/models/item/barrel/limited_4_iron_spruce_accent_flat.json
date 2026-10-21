@@ -1,0 +1,254 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "p0_top": "sstoragelegacy:block/limited_spruce_barrel_4_top",
+    "p0_top_trim": "sstoragelegacy:block/limited_spruce_barrel_4_top",
+    "p0_top_inner_trim": "sstoragelegacy:block/limited_spruce_barrel_4_top",
+    "p0_particle": "sstoragelegacy:block/limited_spruce_barrel_4_top",
+    "p0_side": "sstoragelegacy:block/spruce_barrel_side",
+    "p0_side_trim": "sstoragelegacy:block/spruce_barrel_side",
+    "p0_bottom": "sstoragelegacy:block/spruce_barrel_bottom",
+    "p0_bottom_trim": "sstoragelegacy:block/spruce_barrel_bottom",
+    "p1_particle": "sstoragelegacy:block/limited_barrel_4_top_tintable_accent",
+    "p1_top": "sstoragelegacy:block/limited_barrel_4_top_tintable_accent",
+    "p1_side": "sstoragelegacy:block/barrel_side_tintable_accent",
+    "p1_bottom": "sstoragelegacy:block/barrel_bottom_tintable_accent",
+    "p2_top": "sstoragelegacy:block/iron_barrel_top",
+    "p2_side": "sstoragelegacy:block/iron_barrel_side",
+    "p2_bottom": "sstoragelegacy:block/iron_barrel_bottom",
+    "p2_top_trim": "sstoragelegacy:block/iron_barrel_top",
+    "p2_particle": "sstoragelegacy:block/iron_barrel_side",
+    "particle": "sstoragelegacy:block/limited_spruce_barrel_4_top"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "north",
+          "tintindex": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "east",
+          "tintindex": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "south",
+          "tintindex": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "west",
+          "tintindex": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_top",
+          "cullface": "up",
+          "tintindex": 1
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_bottom",
+          "cullface": "down",
+          "tintindex": 1
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "east"
+        }
+      }
+    }
+  ],
+  "__comment": "Generated by tools/gen_barrel_models.py from Sophisticated Storage (c) P3pp3rF1y, GPLv3."
+}

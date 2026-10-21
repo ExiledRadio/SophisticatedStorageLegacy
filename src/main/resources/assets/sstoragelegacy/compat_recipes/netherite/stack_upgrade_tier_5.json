@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "NNN",
+    "NSN",
+    "BNB"
+  ],
+  "key": {
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "ingotNetherite"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "blockNetherite"
+    },
+    "S": {
+      "item": "sstoragelegacy:stack_upgrade_tier_4"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:stack_upgrade_tier_5"
+  },
+  "__comment": "Generated from Sophisticated Storage (c) P3pp3rF1y, GPLv3."
+}

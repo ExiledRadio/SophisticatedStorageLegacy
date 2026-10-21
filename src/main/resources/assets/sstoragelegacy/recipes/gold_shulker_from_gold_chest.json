@@ -1,0 +1,19 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "S",
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": {
+      "item": "sstoragelegacy:gold_chest"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:gold_shulker_box"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "DDD",
+    "DSD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "S": {
+      "item": "sstoragelegacy:gold_shulker_box"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:diamond_shulker_box"
+  }
+}

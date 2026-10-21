@@ -1,0 +1,28 @@
+{
+  "type": "sstoragelegacy:upgrade_next_tier",
+  "pattern": [
+    " D ",
+    "GMG",
+    "RRR"
+  ],
+  "key": {
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "dustRedstone"
+    },
+    "M": {
+      "item": "sstoragelegacy:magnet_upgrade"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:advanced_magnet_upgrade"
+  }
+}

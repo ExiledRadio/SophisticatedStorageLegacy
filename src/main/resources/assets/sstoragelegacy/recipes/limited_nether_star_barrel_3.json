@@ -1,0 +1,24 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "ONO",
+    "OSO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "type": "forge:ore_dict",
+      "ore": "obsidian"
+    },
+    "N": {
+      "type": "forge:ore_dict",
+      "ore": "netherStar"
+    },
+    "S": {
+      "item": "sstoragelegacy:limited_diamond_barrel_3"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:limited_nether_star_barrel_3"
+  }
+}

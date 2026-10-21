@@ -1,0 +1,20 @@
+{
+  "type": "sstoragelegacy:storage_tier_upgrade",
+  "pattern": [
+    "III",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "S": {
+      "item": "sstoragelegacy:limited_barrel_3"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:limited_iron_barrel_3"
+  }
+}

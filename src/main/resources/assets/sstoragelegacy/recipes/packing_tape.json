@@ -1,0 +1,8 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {"type": "forge:ore_dict", "ore": "slimeball"},
+    {"item": "minecraft:paper"}
+  ],
+  "result": {"item": "sstoragelegacy:packing_tape"}
+}

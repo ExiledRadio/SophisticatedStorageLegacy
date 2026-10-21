@@ -1,0 +1,31 @@
+{
+  "type": "sstoragelegacy:upgrade_next_tier",
+  "pattern": [
+    " D ",
+    "GHG",
+    "ROR"
+  ],
+  "key": {
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "dustRedstone"
+    },
+    "O": {
+      "item": "minecraft:dropper"
+    },
+    "H": {
+      "item": "sstoragelegacy:hopper_upgrade"
+    }
+  },
+  "result": {
+    "item": "sstoragelegacy:advanced_hopper_upgrade"
+  }
+}

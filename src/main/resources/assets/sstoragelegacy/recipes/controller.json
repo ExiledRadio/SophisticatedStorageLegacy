@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "PBP",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "P": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "B": [
+      {
+        "item": "sstoragelegacy:barrel"
+      },
+      {
+        "item": "sstoragelegacy:chest"
+      },
+      {
+        "item": "sstoragelegacy:limited_barrel_1"
+      },
+      {
+        "item": "sstoragelegacy:limited_barrel_2"
+      },
+      {
+        "item": "sstoragelegacy:limited_barrel_3"
+      },
+      {
+        "item": "sstoragelegacy:limited_barrel_4"
+      }
+    ]
+  },
+  "result": {
+    "item": "sstoragelegacy:controller"
+  }
+}

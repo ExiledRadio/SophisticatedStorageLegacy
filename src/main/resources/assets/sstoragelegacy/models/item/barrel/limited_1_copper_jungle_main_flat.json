@@ -1,0 +1,309 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "p0_top": "sstoragelegacy:block/limited_jungle_barrel_1_top",
+    "p0_top_trim": "sstoragelegacy:block/limited_jungle_barrel_1_top",
+    "p0_top_inner_trim": "sstoragelegacy:block/limited_jungle_barrel_1_top",
+    "p0_side": "sstoragelegacy:block/jungle_barrel_side",
+    "p0_side_trim": "sstoragelegacy:block/jungle_barrel_side",
+    "p0_bottom": "sstoragelegacy:block/jungle_barrel_bottom",
+    "p0_bottom_trim": "sstoragelegacy:block/jungle_barrel_bottom",
+    "p0_particle": "sstoragelegacy:block/limited_jungle_barrel_1_top",
+    "p1_particle": "sstoragelegacy:block/limited_barrel_1_top_tintable_main",
+    "p1_top": "sstoragelegacy:block/limited_barrel_1_top_tintable_main",
+    "p1_side": "sstoragelegacy:block/barrel_side_tintable_main",
+    "p1_bottom": "sstoragelegacy:block/barrel_bottom_tintable_main",
+    "p1_metal_bands": "sstoragelegacy:block/barrel_metal_bands",
+    "p2_top": "sstoragelegacy:block/copper_barrel_top",
+    "p2_side": "sstoragelegacy:block/copper_barrel_side",
+    "p2_bottom": "sstoragelegacy:block/copper_barrel_bottom",
+    "p2_top_trim": "sstoragelegacy:block/copper_barrel_top",
+    "p2_particle": "sstoragelegacy:block/copper_barrel_side",
+    "particle": "sstoragelegacy:block/limited_jungle_barrel_1_top"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p0_side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "north",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "east",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "south",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_side",
+          "cullface": "west",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_top",
+          "cullface": "up",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_bottom",
+          "cullface": "down",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_metal_bands",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_metal_bands",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_metal_bands",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_metal_bands",
+          "cullface": "west"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_side",
+          "cullface": "east"
+        }
+      }
+    }
+  ],
+  "__comment": "Generated by tools/gen_barrel_models.py from Sophisticated Storage (c) P3pp3rF1y, GPLv3."
+}

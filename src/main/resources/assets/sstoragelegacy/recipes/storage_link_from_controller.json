@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sstoragelegacy:controller"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "enderpearl"
+    }
+  ],
+  "result": {
+    "item": "sstoragelegacy:storage_link",
+    "count": 3
+  }
+}
