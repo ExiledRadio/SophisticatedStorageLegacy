@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 (2026-10-21)
+
+**Requires Sophisticated Core Legacy 1.2.0 or later.**
+
+- **Smoking, blasting and stonecutter upgrades** (from the original), with auto-smoking and auto-blasting: listed and craftable when a mod adds a smoker, blast furnace or stonecutter (Future MC, VillagerBackport and others). Crafted from the original's recipes with that block, or the smoking and blasting ones from a smelting upgrade (the blasting one uses stone where the original has smooth stone).
+- Smoking and blasting share the cooking upgrade limit with smelting: one per storage by default.
+
 ## 1.0.0 (2026-10-17)
 
 First release of Sophisticated Storage Legacy, an unofficial 1.12.2 port of P3pp3rF1y's Sophisticated Storage (GPLv3, `1.18.x` branch at `891b0d9`, version 0.9.8; double chests, barrel materials, the decoration table, Storage I/O blocks and the newer upgrades from the `1.20.x` branch at `a41c806`, version 1.3.5, also GPLv3).

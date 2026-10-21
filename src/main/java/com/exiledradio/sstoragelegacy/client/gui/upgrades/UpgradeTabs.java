@@ -58,6 +58,7 @@ public final class UpgradeTabs {
         UpgradeGuiManager.registerTab(ModUpgrades.CRAFTING, CraftingUpgradeTab::new);
         UpgradeGuiManager.registerTab(ModUpgrades.SMELTING, CookingUpgradeTabs.SmeltingTab::new);
         UpgradeGuiManager.registerTab(ModUpgrades.AUTO_SMELTING, CookingUpgradeTabs.AutoSmeltingTab::new);
+        UpgradeGuiManager.registerTab(ModUpgrades.STONECUTTER, com.exiledradio.scorelegacy.client.gui.upgrades.StonecutterUpgradeTab::new);
         UpgradeGuiManager.registerTab(ModUpgrades.JUKEBOX, JukeboxUpgradeTab::new);
         UpgradeGuiManager.registerTab(ModUpgrades.PUMP_BASIC, (PumpUpgradeContainer container, Position p, StorageScreenBase s) -> new PumpUpgradeTab(container, p, s, false));
         UpgradeGuiManager.registerTab(ModUpgrades.PUMP_ADVANCED, (PumpUpgradeContainer container, Position p, StorageScreenBase s) -> new PumpUpgradeTab(container, p, s, true));

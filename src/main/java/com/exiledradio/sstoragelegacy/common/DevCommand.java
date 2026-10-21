@@ -35,6 +35,27 @@ public class DevCommand extends CommandBase {
             stashTest(sender);
             return;
         }
+        if (args.length >= 3 && "cook".equals(args[0])) {
+            // What a cooking type makes of an item: cook <smelting|smoking|blasting> <item[@meta]>
+            com.exiledradio.scorelegacy.upgrades.cooking.CookingType type = com.exiledradio.scorelegacy.upgrades.cooking.CookingType.valueOf(args[1].toUpperCase(java.util.Locale.ROOT));
+            String[] itemAndMeta = args[2].split("@");
+            ItemStack input = new ItemStack(getItemByText(sender, itemAndMeta[0]), 1, itemAndMeta.length > 1 ? parseInt(itemAndMeta[1]) : 0);
+            ItemStack result = type.getResult(input);
+            sender.sendMessage(new TextComponentString("Cook " + type + " (available " + type.isAvailable() + ") " + args[2] + " -> "
+                    + (result.isEmpty() ? "nothing" : result.getCount() + "x" + result.getItem().getRegistryName() + "@" + result.getMetadata())));
+            return;
+        }
+        if (args.length >= 2 && "stonecut".equals(args[0])) {
+            // What the stonecutter upgrade lists for an item: stonecut <item[@meta]>
+            String[] itemAndMeta = args[1].split("@");
+            ItemStack input = new ItemStack(getItemByText(sender, itemAndMeta[0]), 1, itemAndMeta.length > 1 ? parseInt(itemAndMeta[1]) : 0);
+            StringBuilder out = new StringBuilder("Stonecut " + args[1] + " (available " + com.exiledradio.scorelegacy.compat.MaterialCompat.Material.STONECUTTER.isAvailable() + "):");
+            for (ItemStack result : com.exiledradio.scorelegacy.compat.BackportRecipes.getStonecutterResults(input)) {
+                out.append(' ').append(result.getCount()).append('x').append(result.getItem().getRegistryName()).append('@').append(result.getMetadata());
+            }
+            sender.sendMessage(new TextComponentString(out.toString()));
+            return;
+        }
         if (args.length >= 2 && "craft".equals(args[0])) {
             craft(sender, args);
             return;

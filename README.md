@@ -22,7 +22,7 @@ the original mod.
 ## Differences from the original
 
 - The top tier is a Nether Star tier, matching Sophisticated Backpacks Legacy. The original's copper and netherite tiers and crimson and warped woods exist too, but are listed and craftable only when another mod adds those materials (netherite then sits beside the Nether Star).
-- Stonecutter, Smoking and Blasting upgrades aren't included (those blocks don't exist in 1.12.2).
+- The Smoking, Blasting and Stonecutter upgrades (and the auto versions) are listed and craftable only when another mod adds a smoker, blast furnace or stonecutter (Future MC, VillagerBackport and others). Smoking cooks whatever smelts into food and blasting ores and whatever smelts into an ingot or gem, plus Future MC's own lists; the stonecutter shows VillagerBackport's and Future MC's stonecutter recipes.
 - Double chests come from the original's 1.20 version (the 1.18 one has none). When chests join, the per-slot settings of the half that keeps nothing move with its items, and a broken half takes back exactly its own share of slots.
 - Packing tape keeps a storage's contents in the item instead of in world data.
 - The controller keeps its routing index up to date once per tick instead of through listeners on every storage, and compression keeps one total per chain of forms; both behave the same in play.

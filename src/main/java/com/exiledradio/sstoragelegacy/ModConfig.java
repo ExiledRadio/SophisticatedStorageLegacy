@@ -173,6 +173,10 @@ public class ModConfig {
         public final com.exiledradio.scorelegacy.config.VoidUpgradeConfig advancedVoiding = new com.exiledradio.scorelegacy.config.VoidUpgradeConfig(16, 4);
         public final CookingUpgradeConfig smelting = new CookingUpgradeConfig();
         public final AutoCookingUpgradeConfig autoSmelting = new AutoCookingUpgradeConfig();
+        public final CookingUpgradeConfig smoking = new CookingUpgradeConfig();
+        public final AutoCookingUpgradeConfig autoSmoking = new AutoCookingUpgradeConfig();
+        public final CookingUpgradeConfig blasting = new CookingUpgradeConfig();
+        public final AutoCookingUpgradeConfig autoBlasting = new AutoCookingUpgradeConfig();
         public final PumpUpgradeConfig pump = new PumpUpgradeConfig();
         public final XpPumpUpgradeConfig xpPump = new XpPumpUpgradeConfig();
         public final HopperUpgradeConfig hopper = new HopperUpgradeConfig(2, 2, 2, 2, 8, 1);
