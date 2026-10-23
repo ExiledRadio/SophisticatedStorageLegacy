@@ -108,20 +108,27 @@ public final class BarrelMaterialModel {
             SophisticatedStorageLegacy.LOGGER.error("Couldn't read barrel_materials.json; barrel materials won't show", e);
             return;
         }
-        Map<String, Kind> kinds = new HashMap<>();
+        // Only our barrels' own model keys, from their state mappers: going through every key in the
+        // registry and fetching each model forces mods like VintageFix, which bake models only when
+        // first asked for, to bake every model in the game here (a load that looks frozen).
+        net.minecraft.client.renderer.block.statemap.BlockStateMapper mapper = event.getModelManager().getBlockModelShapes().getBlockStateMapper();
+        int wrapped = 0;
+        java.util.Set<String> modelTypes = new java.util.TreeSet<>();
         for (StorageBlockBase block : ModContent.getAllStorages()) {
             Kind kind = Kind.of(block);
-            if (kind != null && block.getRegistryName() != null) {
-                kinds.put(block.getRegistryName().getPath(), kind);
+            if (kind == null) {
+                continue;
+            }
+            for (ModelResourceLocation key : new java.util.HashSet<>(mapper.getVariants(block).values())) {
+                IBakedModel original = event.getModelRegistry().getObject(key);
+                if (original != null && !(original instanceof BlockModel)) {
+                    event.getModelRegistry().putObject(key, new BlockModel(original, kind));
+                    wrapped++;
+                    modelTypes.add(original.getClass().getSimpleName());
+                }
             }
         }
-        for (ModelResourceLocation key : new ArrayList<>(event.getModelRegistry().getKeys())) {
-            Kind kind = SophisticatedStorageLegacy.MODID.equals(key.getNamespace()) && !"inventory".equals(key.getVariant()) ? kinds.get(key.getPath()) : null;
-            IBakedModel original = event.getModelRegistry().getObject(key);
-            if (kind != null && original != null) {
-                event.getModelRegistry().putObject(key, new BlockModel(original, kind));
-            }
-        }
+        SophisticatedStorageLegacy.LOGGER.info("Barrel models: {} wrapped for materials ({})", wrapped, String.join(", ", modelTypes));
         IBakedModel itemReference = event.getModelRegistry().getObject(new ModelResourceLocation(SophisticatedStorageLegacy.MODID + ":barrel/acacia", "inventory"));
         if (itemReference != null) {
             event.getModelRegistry().putObject(ITEM_MODEL, new ItemModel(itemReference));

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 (2026-10-22)
+
+- Fixed the game freezing while loading with VintageFix (or any mod that bakes models only when first needed). Each barrel and limited barrel now has one block model instead of one per state (about 12,000 each), which also makes loading faster without VintageFix.
+
 ## 1.0.0 (2026-10-21)
 
 First release of Sophisticated Storage Legacy, an unofficial 1.12.2 port of P3pp3rF1y's Sophisticated Storage (GPLv3, `1.18.x` branch at `891b0d9`, version 0.9.8; double chests, barrel materials, the decoration table, Storage I/O blocks and the newer upgrades from the `1.20.x` branch at `a41c806`, version 1.3.5, also GPLv3).

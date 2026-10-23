@@ -34,6 +34,17 @@ public final class ModelRegistration {
                 continue;
             }
             BarrelItem barrel = (BarrelItem) Item.getItemFromBlock(block);
+            // Every state draws from the one multipart model (it picks its parts from the state it's
+            // given), so all states share one model location. The default mapper gives each state
+            // its own (about 12,000 per barrel), which mods that bake models one location at a time,
+            // like VintageFix, then have to bake separately.
+            ModelResourceLocation blockModel = new ModelResourceLocation(block.getRegistryName(), "multipart");
+            ModelLoader.setCustomStateMapper(block, new StateMapperBase() {
+                @Override
+                protected ModelResourceLocation getModelResourceLocation(IBlockState state) {
+                    return blockModel;
+                }
+            });
             String prefix = barrel.getModelKeyPrefix();
             // One merged model per look and tier, see tools/gen_barrel_models.py.
             List<ModelResourceLocation> variants = new ArrayList<>();
