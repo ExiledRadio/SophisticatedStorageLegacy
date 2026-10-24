@@ -59,7 +59,9 @@ public final class ModelRegistration {
             variants.add(com.exiledradio.sstoragelegacy.client.render.BarrelMaterialModel.ITEM_MODEL);
             ModelBakery.registerItemVariants(barrel, variants.toArray(new ModelResourceLocation[0]));
             // With materials the item is built per stack (BarrelMaterialModel).
-            ModelLoader.setCustomMeshDefinition(barrel, stack -> com.exiledradio.sstoragelegacy.item.BarrelMaterials.get(stack).isEmpty()
+            // A stack without NBT goes through it too: Carry On draws carried barrels as plain stacks,
+            // and only the item model learns who is carrying, so it can show the carried look.
+            ModelLoader.setCustomMeshDefinition(barrel, stack -> stack.hasTagCompound() && com.exiledradio.sstoragelegacy.item.BarrelMaterials.get(stack).isEmpty()
                     ? barrelModel(barrel.getModelKey(stack)) : com.exiledradio.sstoragelegacy.client.render.BarrelMaterialModel.ITEM_MODEL);
         }
         // Chests and shulker boxes are drawn by TESRs (items too); their blockstates only give particles.

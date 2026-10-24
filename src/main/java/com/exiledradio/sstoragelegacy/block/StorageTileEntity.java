@@ -718,6 +718,7 @@ public abstract class StorageTileEntity extends TileEntity implements ITickable,
     public void handleUpdateTag(@Nonnull NBTTagCompound tag) {
         super.readFromNBT(tag);
         readSynchronizedData(tag);
+        refreshRender();
     }
 
     @Nullable
@@ -732,9 +733,18 @@ public abstract class StorageTileEntity extends TileEntity implements ITickable,
     @Override
     public void onDataPacket(NetworkManager net, SPacketUpdateTileEntity packet) {
         readSynchronizedData(packet.getNbtCompound());
-        if (world != null) {
-            // Wood, tint and the like are actual-state properties: re-render with the new values.
-            world.markBlockRangeForRenderUpdate(pos, pos);
+        refreshRender();
+    }
+
+    /**
+     * Client side: wood, tint and the like are actual-state properties, so the block must be
+     * drawn again once they arrive. Done at once (flag 8), as block placement itself does: a
+     * render that's only scheduled can be skipped by renderer mods, leaving the default (acacia) look.
+     */
+    public void refreshRender() {
+        if (world != null && world.isRemote) {
+            IBlockState state = world.getBlockState(pos);
+            world.notifyBlockUpdate(pos, state, state, 8);
         }
     }
 

@@ -214,6 +214,9 @@ public abstract class StorageBlockBase extends Block {
             ((StorageTileEntity) te).readFromStack(stack);
             if (!world.isRemote) {
                 ((StorageTileEntity) te).tryToAddToController();
+            } else {
+                // Placement drew the block before the tile knew its look (the default acacia); draw it again.
+                ((StorageTileEntity) te).refreshRender();
             }
             if (placer != null && placer.getHeldItemOffhand().getItem() instanceof StorageToolItem) {
                 StorageToolItem.useOffHandOnPlaced(placer.getHeldItemOffhand(), (StorageTileEntity) te);

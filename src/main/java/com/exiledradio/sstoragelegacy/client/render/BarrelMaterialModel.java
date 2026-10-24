@@ -420,13 +420,19 @@ public final class BarrelMaterialModel {
             @Nonnull
             @Override
             public IBakedModel handleItemState(@Nonnull IBakedModel model, @Nonnull ItemStack stack, @Nullable World world, @Nullable EntityLivingBase entity) {
-                Kind kind = Kind.of(Block.getBlockFromItem(stack.getItem()));
-                Map<BarrelMaterial, String> materials = BarrelMaterials.get(stack);
-                if (kind == null || materials.isEmpty()) {
+                ItemStack carried = CarryOnLook.getCarriedLook(stack, entity);
+                ItemStack look = carried != null ? carried : stack;
+                Kind kind = Kind.of(Block.getBlockFromItem(look.getItem()));
+                Map<BarrelMaterial, String> materials = BarrelMaterials.get(look);
+                if (kind == null) {
                     return reference;
                 }
+                if (materials.isEmpty()) {
+                    // A plain barrel (only plain stacks without NBT come here without materials): its usual model.
+                    return getPlainModel(look);
+                }
                 try {
-                    return perStack.get(stack.getItem().getRegistryName() + "" + stack.getTagCompound(), () -> new StackModel(reference, stackLook(kind, stack, materials)));
+                    return perStack.get(look.getItem().getRegistryName() + "" + look.getTagCompound(), () -> new StackModel(reference, stackLook(kind, look, materials)));
                 } catch (ExecutionException e) {
                     return reference;
                 }
@@ -435,6 +441,16 @@ public final class BarrelMaterialModel {
 
         ItemModel(IBakedModel reference) {
             this.reference = reference;
+        }
+
+        /** The barrel item's own merged model for this look (see ModelRegistration). */
+        private IBakedModel getPlainModel(ItemStack look) {
+            if (!(look.getItem() instanceof com.exiledradio.sstoragelegacy.item.BarrelItem)) {
+                return reference;
+            }
+            String key = ((com.exiledradio.sstoragelegacy.item.BarrelItem) look.getItem()).getModelKey(look);
+            return Minecraft.getMinecraft().getRenderItem().getItemModelMesher().getModelManager()
+                    .getModel(new ModelResourceLocation(SophisticatedStorageLegacy.MODID + ":barrel/" + key, "inventory"));
         }
 
         private static Look stackLook(Kind kind, ItemStack stack, Map<BarrelMaterial, String> materials) {
