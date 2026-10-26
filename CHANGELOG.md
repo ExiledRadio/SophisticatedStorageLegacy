@@ -2,7 +2,7 @@
 
 ## 1.0.2 (2026-10-24)
 
-- Fixed a newly placed barrel showing as acacia until it was right-clicked. The block is now redrawn as soon as it knows its wood, colours and materials.
+- Fixed a newly placed barrel showing as acacia until it was right-clicked, with Fancy Block Particles' place animation (which swaps the block out and back) or a renderer like Celeritas. The barrel now keeps its wood, colours and materials through the swap and is redrawn as soon as it knows them.
 - Fixed a barrel carried with Carry On showing as acacia. It now shows its own wood, colours and materials in your hands.
 
 ## 1.0.1 (2026-10-22)

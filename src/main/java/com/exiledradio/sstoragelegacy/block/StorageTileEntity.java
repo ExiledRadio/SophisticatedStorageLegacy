@@ -523,11 +523,33 @@ public abstract class StorageTileEntity extends TileEntity implements ITickable,
 
     // ---- Saving and syncing --------------------------------------------------------------
 
+    /**
+     * Client side: a mod that swaps the block out for a moment (Fancy Block Particles' place
+     * animation goes through air twice) gets a new, empty tile back, which nothing sends the look
+     * to, so it drew as acacia. The removed tile leaves its look for the next one (see onLoad).
+     */
+    @Override
+    public void invalidate() {
+        super.invalidate();
+        if (world != null && world.isRemote) {
+            NBTTagCompound look = new NBTTagCompound();
+            writeSynchronizedData(look);
+            writeClientSyncData(look);
+            RemovedLook.remember(world, pos, getClass(), look);
+        }
+    }
+
     // ---- Controller network ------------------------------------------------------------
 
     @Override
     public void onLoad() {
         super.onLoad();
+        if (world != null && world.isRemote) {
+            NBTTagCompound look = RemovedLook.take(world, pos, getClass());
+            if (look != null) {
+                readSynchronizedData(look);
+            }
+        }
         if (world != null && !world.isRemote) {
             registerWithControllerOnLoad();
         }
