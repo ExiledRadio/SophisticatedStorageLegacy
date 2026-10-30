@@ -158,8 +158,8 @@ public final class BarrelMaterials {
             return null;
         }
         int meta = stack.getItem().getMetadata(stack.getMetadata());
-        IBlockState state = block.getStateFromMeta(meta);
-        if (!isFullBlockShape(state) || state.getRenderType() != EnumBlockRenderType.MODEL || block.hasTileEntity(state)) {
+        IBlockState state = stateFromMeta(block, meta);
+        if (state == null || !isFullBlockShape(state) || state.getRenderType() != EnumBlockRenderType.MODEL || block.hasTileEntity(state)) {
             return null;
         }
         return meta == 0 ? block.getRegistryName().toString() : block.getRegistryName() + "@" + meta;
@@ -196,7 +196,21 @@ public final class BarrelMaterials {
                 meta = 0;
             }
         }
-        return block.getStateFromMeta(meta);
+        return stateFromMeta(block, meta);
+    }
+
+    /**
+     * The block's state for a meta, or null if the block has none: an item's meta needn't be a
+     * state (the piston item is meta 7, which has no facing, and the piston throws on it).
+     */
+    @Nullable
+    @SuppressWarnings("deprecation")
+    private static IBlockState stateFromMeta(Block block, int meta) {
+        try {
+            return block.getStateFromMeta(meta);
+        } catch (RuntimeException e) {
+            return null;
+        }
     }
 
     /** The item for a material name (for the decoration table and paintbrush costs). */

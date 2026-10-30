@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 (2026-10-30)
+
+- Fixed a piston in a crafting grid breaking crafting: the barrel material recipe threw on it, so with a piston in a backpack's crafting upgrade the backpack wouldn't open (in hand or placed). Any block item whose damage value isn't one of its block's states is now simply not a barrel material.
+
 ## 1.0.2 (2026-10-24)
 
 - Fixed a newly placed barrel showing as acacia until it was right-clicked, with Fancy Block Particles' place animation (which swaps the block out and back) or a renderer like Celeritas. The barrel now keeps its wood, colours and materials through the swap and is redrawn as soon as it knows them.
