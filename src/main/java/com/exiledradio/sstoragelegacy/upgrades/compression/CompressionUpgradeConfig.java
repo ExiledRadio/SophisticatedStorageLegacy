@@ -3,6 +3,7 @@
  */
 package com.exiledradio.sstoragelegacy.upgrades.compression;
 
+import com.exiledradio.backportcore.settings.Setting;
 import net.minecraftforge.common.config.Config;
 
 /** Compression upgrade settings (the original's CompressionUpgradeConfig). */
@@ -14,6 +15,7 @@ public class CompressionUpgradeConfig {
     @Config.Comment({"List of items that can be decompressed by compression upgrade and their results.",
             "Item registry names are expected here in format of \"mod:itemBeingDecompressed=Nxmod:itemDecompressResult\" (N is 4 or 9);",
             "add \":meta\" after a name for a metadata variant"})
+    @Setting.ListOf(Setting.Kind.ITEM)
     public String[] additionalDecompressibleItems = {
             "minecraft:glowstone=4xminecraft:glowstone_dust",
             "minecraft:quartz_block=4xminecraft:quartz"

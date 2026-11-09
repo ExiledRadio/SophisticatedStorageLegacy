@@ -87,6 +87,9 @@ dependencies {
 	compile name: "SophisticatedCoreLegacy-${core_version}-dev"
 	// Core's containers carry Inventory Tweaks' @IgnoreContainer; javac needs to see it.
 	compileOnly name: 'invtweaks-api-1.64'
+	// Backport Core, soft: its settings screen annotations and BackportSettings (called by
+	// reflection). Java drops annotations whose class is missing, so the mod runs without it.
+	compileOnly name: 'BackportCore-1.1.0-dev'
 }
 
 // No deployToInstance task here on purpose: the machine-wide `deployDir` in
