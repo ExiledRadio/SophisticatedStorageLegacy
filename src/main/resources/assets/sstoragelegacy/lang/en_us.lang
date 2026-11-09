@@ -289,7 +289,7 @@ gui.sstoragelegacy.tint.accent=Accent Tint
 gui.sstoragelegacy.tooltip.parts_stored=Parts Stored
 gui.sstoragelegacy.color_picker.none=No Color
 
-# Settings screen (Backport Core)
+# Settings screen
 sstoragelegacy.general.storages=Storage slots
 sstoragelegacy.general.storages.tooltip=Slots of each barrel, chest and shulker box.
 sstoragelegacy.general.storages.woodbarrel=Barrel

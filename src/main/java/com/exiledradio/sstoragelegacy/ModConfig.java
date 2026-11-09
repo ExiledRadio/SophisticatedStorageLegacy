@@ -6,7 +6,7 @@ import com.exiledradio.scorelegacy.config.FilteredUpgradeConfig;
 import com.exiledradio.scorelegacy.config.MagnetUpgradeConfig;
 import com.exiledradio.scorelegacy.config.PumpUpgradeConfig;
 import com.exiledradio.scorelegacy.config.XpPumpUpgradeConfig;
-import com.exiledradio.backportcore.settings.Setting;
+import com.exiledradio.scorelegacy.settings.Setting;
 import com.exiledradio.sstoragelegacy.block.StorageTier;
 import com.exiledradio.sstoragelegacy.config.LimitedBarrelConfig;
 import com.exiledradio.sstoragelegacy.config.StorageSlotsConfig;

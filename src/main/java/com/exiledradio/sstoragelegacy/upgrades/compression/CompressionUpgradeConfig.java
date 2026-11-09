@@ -3,7 +3,7 @@
  */
 package com.exiledradio.sstoragelegacy.upgrades.compression;
 
-import com.exiledradio.backportcore.settings.Setting;
+import com.exiledradio.scorelegacy.settings.Setting;
 import net.minecraftforge.common.config.Config;
 
 /** Compression upgrade settings (the original's CompressionUpgradeConfig). */

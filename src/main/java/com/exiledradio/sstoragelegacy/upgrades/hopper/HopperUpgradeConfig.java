@@ -3,7 +3,7 @@
  */
 package com.exiledradio.sstoragelegacy.upgrades.hopper;
 
-import com.exiledradio.backportcore.settings.Setting;
+import com.exiledradio.scorelegacy.settings.Setting;
 import net.minecraftforge.common.config.Config;
 
 /** One hopper upgrade's settings (the original's HopperUpgradeConfig). */

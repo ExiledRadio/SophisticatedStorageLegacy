@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
         modid = SophisticatedStorageLegacy.MODID,
         name = SophisticatedStorageLegacy.NAME,
         version = SophisticatedStorageLegacy.VERSION,
-        dependencies = "required-after:" + SophisticatedCoreLegacy.MODID + "@[1.1.0,)"
+        dependencies = "required-after:" + SophisticatedCoreLegacy.MODID + "@[1.2.0,)"
 )
 public class SophisticatedStorageLegacy {
 
@@ -43,7 +43,7 @@ public class SophisticatedStorageLegacy {
     public void preInit(FMLPreInitializationEvent event) {
         com.exiledradio.scorelegacy.util.RecipeHelper.addAlwaysCompactedSource(() -> ModConfig.upgrades.alwaysCompactedItems);
         com.exiledradio.scorelegacy.api.UpgradeLimits.register(com.exiledradio.sstoragelegacy.config.UpgradeLimitsConfig.INSTANCE);
-        com.exiledradio.sstoragelegacy.compat.BackportCoreCompat.registerSettings();
+        com.exiledradio.scorelegacy.settings.ModSettings.register(MODID, "sstoragelegacy:barrel");
         proxy.preInit(event);
     }
 
