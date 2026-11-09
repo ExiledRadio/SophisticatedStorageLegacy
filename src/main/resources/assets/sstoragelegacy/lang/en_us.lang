@@ -794,3 +794,6 @@ sstoragelegacy.general.shulkerboxdisalloweditems.containeritemsdisallowed=No con
 sstoragelegacy.general.shulkerboxdisalloweditems.containeritemsdisallowed.tooltip=Keeps items with their own inventory, such as backpacks, out of shulker boxes.
 sstoragelegacy.general.toomanyitementitydrops=Drop warning limit
 sstoragelegacy.general.toomanyitementitydrops.tooltip=Breaking a storage that would drop more item stacks than this needs sneaking; use packing tape instead.
+
+sstoragelegacy.general=General
+sstoragelegacy.general.tooltip=Settings that apply to every storage.
