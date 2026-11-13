@@ -43,6 +43,7 @@ public class SophisticatedStorageLegacy {
     public void preInit(FMLPreInitializationEvent event) {
         com.exiledradio.scorelegacy.util.RecipeHelper.addAlwaysCompactedSource(() -> ModConfig.upgrades.alwaysCompactedItems);
         com.exiledradio.scorelegacy.api.UpgradeLimits.register(com.exiledradio.sstoragelegacy.config.UpgradeLimitsConfig.INSTANCE);
+        com.exiledradio.scorelegacy.settings.ModSettings.register(MODID, "sstoragelegacy:barrel");
         proxy.preInit(event);
     }
 

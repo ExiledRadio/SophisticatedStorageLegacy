@@ -3,6 +3,7 @@
  */
 package com.exiledradio.sstoragelegacy.upgrades.hopper;
 
+import com.exiledradio.scorelegacy.settings.Setting;
 import net.minecraftforge.common.config.Config;
 
 /** One hopper upgrade's settings (the original's HopperUpgradeConfig). */
@@ -12,12 +13,14 @@ public class HopperUpgradeConfig {
     public int inputFilterSlots;
     @Config.Comment("Number of input filter slots displayed in a row")
     @Config.RangeInt(min = 1, max = 4)
+    @Setting.Client
     public int inputFilterSlotsInRow;
     @Config.Comment("Number of output filter slots")
     @Config.RangeInt(min = 1, max = 8)
     public int outputFilterSlots;
     @Config.Comment("Number of output filter slots displayed in a row")
     @Config.RangeInt(min = 1, max = 4)
+    @Setting.Client
     public int outputFilterSlotsInRow;
     @Config.Comment("Number of ticks between each transfer")
     @Config.RangeInt(min = 1, max = 100)
