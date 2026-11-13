@@ -9,6 +9,7 @@
 - **Smithing table:** where a mod adds a smithing table that does netherite upgrades, diamond storages become netherite ones on it, as in the original. They keep their NBT, and a shulker box's or packed storage's slots grow to the netherite tier. The crafting recipe still works.
 - Fixed stairs and some plants (glow lichen, azalea) counting as barrel materials. Only full blocks and glass count, as in the original.
 - Wood names in more languages.
+- Large barrels, chests and shulker boxes scroll their rows when the screen is taller than the window (from Core's fix; needs that Core).
 
 ## 1.0.3 (2026-10-30)
 
