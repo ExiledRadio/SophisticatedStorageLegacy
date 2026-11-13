@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
         modid = SophisticatedStorageLegacy.MODID,
         name = SophisticatedStorageLegacy.NAME,
         version = SophisticatedStorageLegacy.VERSION,
-        dependencies = "required-after:" + SophisticatedCoreLegacy.MODID + "@[1.1.0,)"
+        dependencies = "required-after:" + SophisticatedCoreLegacy.MODID + "@[1.2.0,)"
 )
 public class SophisticatedStorageLegacy {
 
@@ -54,6 +54,7 @@ public class SophisticatedStorageLegacy {
     @Mod.EventHandler
     public void postInit(net.minecraftforge.fml.common.event.FMLPostInitializationEvent event) {
         com.exiledradio.scorelegacy.compat.MaterialCompat.loadCompatRecipes(MODID);
+        com.exiledradio.sstoragelegacy.compat.SmithingCompat.postInit();
     }
 
     @Mod.EventHandler

@@ -117,6 +117,48 @@
         "facing": "down",
         "flat_top": "false",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -233,6 +275,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open",
         "x": 180,
         "y": 180
       }
@@ -415,6 +499,48 @@
         "facing": "down",
         "flat_top": "true",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -531,6 +657,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open_flat",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open_flat",
         "x": 180,
         "y": 180
       }
@@ -713,6 +881,48 @@
         "facing": "up",
         "flat_top": "false",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -829,6 +1039,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open",
         "x": 0,
         "y": 180
       }
@@ -1011,6 +1263,48 @@
         "facing": "up",
         "flat_top": "true",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -1127,6 +1421,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open_flat",
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open_flat",
         "x": 0,
         "y": 180
       }
@@ -1309,6 +1645,48 @@
         "facing": "north",
         "flat_top": "false",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -1425,6 +1803,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open",
         "x": 270,
         "y": 180
       }
@@ -1607,6 +2027,48 @@
         "facing": "north",
         "flat_top": "true",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -1723,6 +2185,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open_flat",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open_flat",
         "x": 270,
         "y": 180
       }
@@ -1905,6 +2409,48 @@
         "facing": "south",
         "flat_top": "false",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -2021,6 +2567,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open",
         "x": 270,
         "y": 0
       }
@@ -2203,6 +2791,48 @@
         "facing": "south",
         "flat_top": "true",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -2319,6 +2949,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open_flat",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open_flat",
         "x": 270,
         "y": 0
       }
@@ -2501,6 +3173,48 @@
         "facing": "west",
         "flat_top": "false",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -2617,6 +3331,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open",
         "x": 270,
         "y": 90
       }
@@ -2799,6 +3555,48 @@
         "facing": "west",
         "flat_top": "true",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -2915,6 +3713,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open_flat",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open_flat",
         "x": 270,
         "y": 90
       }
@@ -3097,6 +3937,48 @@
         "facing": "east",
         "flat_top": "false",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -3213,6 +4095,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "false",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open",
         "x": 270,
         "y": 270
       }
@@ -3395,6 +4319,48 @@
         "facing": "east",
         "flat_top": "true",
         "open": "false",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "false",
         "tint": "main|both"
       },
       "apply": {
@@ -3511,6 +4477,48 @@
       },
       "apply": {
         "model": "sstoragelegacy:barrel/wood_warped_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "mangrove",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_mangrove_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "cherry",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_cherry_open_flat",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "flat_top": "true",
+        "open": "true",
+        "wood": "bamboo",
+        "tint": "none|main|accent"
+      },
+      "apply": {
+        "model": "sstoragelegacy:barrel/wood_bamboo_open_flat",
         "x": 270,
         "y": 270
       }

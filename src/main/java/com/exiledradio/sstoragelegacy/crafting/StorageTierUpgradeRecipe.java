@@ -38,20 +38,29 @@ public class StorageTierUpgradeRecipe extends ShapedOreRecipe {
         NBTTagCompound tag = storage.getTagCompound();
         if (tag != null) {
             upgraded.setTagCompound(tag.copy());
-            // Contents carried in the item (shulker box, packed storage) grow like a placed storage's.
-            NBTTagCompound contents = upgraded.getTagCompound().getCompoundTag(com.exiledradio.sstoragelegacy.item.StorageItemData.CONTENTS_TAG);
-            net.minecraft.block.Block from = net.minecraft.block.Block.getBlockFromItem(storage.getItem());
-            net.minecraft.block.Block to = net.minecraft.block.Block.getBlockFromItem(upgraded.getItem());
-            if (!contents.isEmpty() && from instanceof com.exiledradio.sstoragelegacy.block.StorageBlockBase && to instanceof com.exiledradio.sstoragelegacy.block.StorageBlockBase) {
-                com.exiledradio.sstoragelegacy.block.StorageBlockBase fromStorage = (com.exiledradio.sstoragelegacy.block.StorageBlockBase) from;
-                com.exiledradio.sstoragelegacy.block.StorageBlockBase toStorage = (com.exiledradio.sstoragelegacy.block.StorageBlockBase) to;
-                int halves = com.exiledradio.sstoragelegacy.item.StorageItemData.isDoubleChest(storage) ? 2 : 1;
-                com.exiledradio.sstoragelegacy.block.StorageBlockWrapper.increaseSize(contents,
-                        halves * (toStorage.getDefaultInventorySlots() - fromStorage.getDefaultInventorySlots()),
-                        toStorage.getDefaultUpgradeSlots() - fromStorage.getDefaultUpgradeSlots());
-            }
+            growCarriedContents(upgraded, net.minecraft.block.Block.getBlockFromItem(storage.getItem()));
         }
         return upgraded;
+    }
+
+    /**
+     * Contents carried in an upgraded item (shulker box, packed storage) grow like a placed
+     * storage's, by the difference between the old storage's tier and the new one's.
+     */
+    public static void growCarriedContents(ItemStack upgraded, net.minecraft.block.Block from) {
+        if (!upgraded.hasTagCompound()) {
+            return;
+        }
+        NBTTagCompound contents = upgraded.getTagCompound().getCompoundTag(com.exiledradio.sstoragelegacy.item.StorageItemData.CONTENTS_TAG);
+        net.minecraft.block.Block to = net.minecraft.block.Block.getBlockFromItem(upgraded.getItem());
+        if (!contents.isEmpty() && from instanceof com.exiledradio.sstoragelegacy.block.StorageBlockBase && to instanceof com.exiledradio.sstoragelegacy.block.StorageBlockBase) {
+            com.exiledradio.sstoragelegacy.block.StorageBlockBase fromStorage = (com.exiledradio.sstoragelegacy.block.StorageBlockBase) from;
+            com.exiledradio.sstoragelegacy.block.StorageBlockBase toStorage = (com.exiledradio.sstoragelegacy.block.StorageBlockBase) to;
+            int halves = com.exiledradio.sstoragelegacy.item.StorageItemData.isDoubleChest(upgraded) ? 2 : 1;
+            com.exiledradio.sstoragelegacy.block.StorageBlockWrapper.increaseSize(contents,
+                    halves * (toStorage.getDefaultInventorySlots() - fromStorage.getDefaultInventorySlots()),
+                    toStorage.getDefaultUpgradeSlots() - fromStorage.getDefaultUpgradeSlots());
+        }
     }
 
     private static ItemStack findStorage(InventoryCrafting inv) {

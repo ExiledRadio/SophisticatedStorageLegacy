@@ -12,8 +12,9 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 /**
- * The wood looks a wooden storage can have. Crimson and warped don't exist in vanilla 1.12: they
- * are listed and craftable only when a Nether backport adds them (see {@link MaterialCompat}).
+ * The wood looks a wooden storage can have. Crimson, warped, mangrove, cherry and bamboo don't
+ * exist in vanilla 1.12: they are listed and craftable only when a mod adds them (see
+ * {@link MaterialCompat}).
  * Names match the original's lower-cased {@code woodType} NBT values, so stack NBT reads the same.
  */
 public enum WoodType implements IStringSerializable {
@@ -24,7 +25,10 @@ public enum WoodType implements IStringSerializable {
     ACACIA("acacia", BlockPlanks.EnumType.ACACIA, null),
     DARK_OAK("dark_oak", BlockPlanks.EnumType.DARK_OAK, null),
     CRIMSON("crimson", null, MaterialCompat.Material.CRIMSON),
-    WARPED("warped", null, MaterialCompat.Material.WARPED);
+    WARPED("warped", null, MaterialCompat.Material.WARPED),
+    MANGROVE("mangrove", null, MaterialCompat.Material.MANGROVE),
+    CHERRY("cherry", null, MaterialCompat.Material.CHERRY),
+    BAMBOO("bamboo", null, MaterialCompat.Material.BAMBOO);
 
     /** What a storage without any saved wood type (and without both colours) looks like, as in the original. */
     public static final WoodType DEFAULT = ACACIA;
@@ -41,7 +45,7 @@ public enum WoodType implements IStringSerializable {
         this.material = material;
     }
 
-    /** Whether storages in this wood are listed and craftable (crimson and warped: when a mod adds them). */
+    /** Whether storages in this wood are listed and craftable (the newer woods: when a mod adds them). */
     public boolean isAvailable() {
         return material == null || material.isAvailable();
     }
@@ -52,7 +56,7 @@ public enum WoodType implements IStringSerializable {
         return name;
     }
 
-    /** Vanilla's planks of this wood; null for crimson and warped. */
+    /** Vanilla's planks of this wood; null for the newer woods. */
     @Nullable
     public BlockPlanks.EnumType getPlanks() {
         return planks;

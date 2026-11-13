@@ -56,6 +56,73 @@ public class DevCommand extends CommandBase {
             sender.sendMessage(new TextComponentString(out.toString()));
             return;
         }
+        if (args.length >= 1 && "woods".equals(args[0])) {
+            // Which compat woods and tiers are listed: woods
+            StringBuilder out = new StringBuilder("Woods:");
+            for (com.exiledradio.sstoragelegacy.block.WoodType wood : com.exiledradio.sstoragelegacy.block.WoodType.values()) {
+                out.append(' ').append(wood.getName()).append('=').append(wood.isAvailable());
+            }
+            out.append(" Tiers:");
+            for (com.exiledradio.sstoragelegacy.block.StorageTier tier : com.exiledradio.sstoragelegacy.block.StorageTier.values()) {
+                out.append(' ').append(tier.name().toLowerCase(java.util.Locale.ROOT)).append('=').append(tier.isAvailable());
+            }
+            sender.sendMessage(new TextComponentString(out.toString()));
+            return;
+        }
+        if (args.length >= 3 && "smith".equals(args[0])) {
+            // A smithing table's result, taken: smith <base item> <addition item> [base nbt]
+            ItemStack base = new ItemStack(getItemByText(sender, args[1]));
+            if (args.length >= 4) {
+                try {
+                    base.setTagCompound(net.minecraft.nbt.JsonToNBT.getTagFromJson(buildString(args, 3)));
+                } catch (net.minecraft.nbt.NBTException e) {
+                    throw new CommandException("Bad NBT: " + e.getMessage());
+                }
+            }
+            ItemStack addition = new ItemStack(getItemByText(sender, args[2]));
+            ItemStack result;
+            try {
+                result = (ItemStack) Class.forName("com.exiledradio.netherupdatebackport.owned.ContainerSmithingTable")
+                        .getMethod("upgrade", ItemStack.class, ItemStack.class).invoke(null, base, addition);
+            } catch (ReflectiveOperationException e) {
+                throw new CommandException("No smithing table: " + e);
+            }
+            String before = result.getItem().getRegistryName() + " " + result.getTagCompound();
+            if (!result.isEmpty()) {
+                result.onCrafting(sender.getEntityWorld(), net.minecraftforge.common.util.FakePlayerFactory.getMinecraft((net.minecraft.world.WorldServer) sender.getEntityWorld()), 1);
+            }
+            sender.sendMessage(new TextComponentString("Smith: " + before + " -> taken " + result.getItem().getRegistryName() + " " + result.getTagCompound()));
+            return;
+        }
+        if (args.length >= 2 && "subitems".equals(args[0])) {
+            // What an item lists in creative and JEI: subitems <item>
+            net.minecraft.item.Item item = getItemByText(sender, args[1]);
+            net.minecraft.util.NonNullList<ItemStack> stacks = net.minecraft.util.NonNullList.create();
+            item.getSubItems(net.minecraft.creativetab.CreativeTabs.SEARCH, stacks);
+            java.util.Set<String> woods = new java.util.LinkedHashSet<>();
+            for (ItemStack stack : stacks) {
+                com.exiledradio.sstoragelegacy.block.WoodType wood = com.exiledradio.sstoragelegacy.item.StorageItemData.getWoodType(stack);
+                woods.add(wood == null ? "none" : wood.getName());
+            }
+            sender.sendMessage(new TextComponentString("Subitems of " + args[1] + ": " + stacks.size() + " " + woods));
+            return;
+        }
+        if (args.length >= 2 && "materials".equals(args[0])) {
+            // Which of a mod's block items can be barrel materials: materials <modid>
+            StringBuilder yes = new StringBuilder();
+            StringBuilder no = new StringBuilder();
+            for (net.minecraft.item.Item item : net.minecraftforge.fml.common.registry.ForgeRegistries.ITEMS) {
+                if (item.getRegistryName() == null || !args[1].equals(item.getRegistryName().getNamespace()) || !(item instanceof net.minecraft.item.ItemBlock)) {
+                    continue;
+                }
+                String name = com.exiledradio.sstoragelegacy.item.BarrelMaterials.getMaterialName(new ItemStack(item));
+                (name != null ? yes : no).append(' ').append(item.getRegistryName().getPath());
+            }
+            com.exiledradio.sstoragelegacy.SophisticatedStorageLegacy.LOGGER.info("Materials of {}: yes:{}", args[1], yes);
+            com.exiledradio.sstoragelegacy.SophisticatedStorageLegacy.LOGGER.info("Materials of {}: no:{}", args[1], no);
+            sender.sendMessage(new TextComponentString("Materials of " + args[1] + " written to the log"));
+            return;
+        }
         if (args.length >= 2 && "craft".equals(args[0])) {
             craft(sender, args);
             return;

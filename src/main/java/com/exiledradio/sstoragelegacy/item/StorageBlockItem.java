@@ -39,6 +39,29 @@ public class StorageBlockItem extends ItemBlock {
         return tier;
     }
 
+    /**
+     * On a smithing table's netherite result (see {@link com.exiledradio.sstoragelegacy.compat.SmithingCompat}):
+     * the registry name of the storage block it was made from. The table copies the old storage's
+     * NBT but knows nothing of carried contents, so they are grown here when the result is taken.
+     */
+    public static final String SMITHED_FROM_TAG = "sstoragelegacySmithedFrom";
+
+    @Override
+    public void onCreated(@Nonnull ItemStack stack, @Nonnull World world, @Nonnull net.minecraft.entity.player.EntityPlayer player) {
+        super.onCreated(stack, world, player);
+        net.minecraft.nbt.NBTTagCompound tag = stack.getTagCompound();
+        if (tag != null && tag.hasKey(SMITHED_FROM_TAG)) {
+            net.minecraft.block.Block from = net.minecraft.block.Block.getBlockFromName(tag.getString(SMITHED_FROM_TAG));
+            tag.removeTag(SMITHED_FROM_TAG);
+            if (tag.isEmpty()) {
+                stack.setTagCompound(null);
+            }
+            if (from != null) {
+                com.exiledradio.sstoragelegacy.crafting.StorageTierUpgradeRecipe.growCarriedContents(stack, from);
+            }
+        }
+    }
+
     @Nonnull
     @Override
     @SuppressWarnings("deprecation")

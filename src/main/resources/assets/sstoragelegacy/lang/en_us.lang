@@ -233,6 +233,9 @@ item.sstoragelegacy.gold_to_netherite_tier_upgrade.name=Gold to Netherite Tier U
 item.sstoragelegacy.diamond_to_netherite_tier_upgrade.name=Diamond to Netherite Tier Upgrade
 wood_name.sstoragelegacy.crimson=Crimson
 wood_name.sstoragelegacy.warped=Warped
+wood_name.sstoragelegacy.mangrove=Mangrove
+wood_name.sstoragelegacy.cherry=Cherry
+wood_name.sstoragelegacy.bamboo=Bamboo
 
 # From the original 1.20: more stack upgrades and the infinity upgrades.
 item.sstoragelegacy.stack_upgrade_tier_5.name=Stack Upgrade Tier 5

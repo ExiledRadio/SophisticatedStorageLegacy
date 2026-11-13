@@ -1,4 +1,5 @@
-"""Writes the recipes of the compat tiers and woods (copper, netherite, crimson, warped).
+"""Writes the recipes of the compat tiers and woods (copper, netherite, crimson, warped, mangrove,
+cherry, bamboo).
 
 Usage:
     python -I tools/gen_compat_recipes.py <SophisticatedStorageLegacy dir>
@@ -8,11 +9,10 @@ only when an installed mod adds the material (copper_and_netherite needs both). 
 original's generated 1.18 recipes (GPL); tags become ore names. Netherite storages are shapeless
 (storage + netherite ingot) as in the 1.20 original, since 1.12 has no smithing table. Copper
 goes to the Nether Star tier the way every other tier does here: obsidian and a Nether Star.
-Safe to re-run: it rewrites the four folders.
+Safe to re-run: it rewrites the files it generates (hand-written ones in the same folders stay).
 """
 import json
 import os
-import shutil
 import sys
 
 NS = "sstoragelegacy"
@@ -75,7 +75,7 @@ def main():
     both["copper_to_netherite_tier_upgrade"] = {"type": "forge:ore_shapeless", "ingredients": [item("copper_to_diamond_tier_upgrade"), ore("ingotNetherite")],
                                                 "result": item("copper_to_netherite_tier_upgrade")}
     # ---- crimson / warped ----
-    for wood, cap in (("crimson", "Crimson"), ("warped", "Warped")):
+    for wood, cap in (("crimson", "Crimson"), ("warped", "Warped"), ("mangrove", "Mangrove"), ("cherry", "Cherry"), ("bamboo", "Bamboo")):
         w = recipes.setdefault(wood, {})
         planks, slab, torch = ore("plank" + cap), ore("slab" + cap), item("minecraft:redstone_torch")
         nbt = {"woodType": wood}
@@ -90,9 +90,12 @@ def main():
     count = 0
     for folder, entries in recipes.items():
         path = os.path.join(base, folder)
-        if os.path.isdir(path):
-            shutil.rmtree(path)
-        os.makedirs(path)
+        os.makedirs(path, exist_ok=True)
+        for old in os.listdir(path):
+            with open(os.path.join(path, old), encoding="utf-8") as fh:
+                generated = json.load(fh).get("__comment") == HEADER
+            if generated:
+                os.remove(os.path.join(path, old))
         for name, recipe in entries.items():
             recipe = dict(recipe)
             recipe["__comment"] = HEADER

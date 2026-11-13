@@ -21,6 +21,10 @@ blockstate (<tier>_barrel.json) and item models (barrel/<tier>_<key>). The nethe
 come from tools/make_nether_star_barrel.py (netherite doesn't exist in 1.12).
 
 Tint indexes: the original uses 1000 (main) and 1001 (accent); we use 0 and 1.
+Mangrove, cherry and bamboo are only in the 1.20.x branch: pass the merged reference that
+tools/merge_reference_models.py writes instead of SS118Reference (the same for the limited barrel
+and material generators).
+
 Safe to re-run: it overwrites only the files it writes.
 """
 import copy
@@ -31,7 +35,7 @@ import sys
 OLD_NS = "sophisticatedstorage"
 NEW_NS = "sstoragelegacy"
 
-WOODS = ("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "crimson", "warped")
+WOODS = ("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "crimson", "warped", "mangrove", "cherry", "bamboo")
 TINTS = ("none", "main", "accent", "both")
 TINT_INDEX = {1000: 0, 1001: 1}
 # Tiers above wood, with the texture prefix of their corner overlay ("sophisticatedstorage:" is
