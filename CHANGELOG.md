@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Large barrels, chests and shulker boxes scroll their rows when the screen is taller than the window (from Core's fix; needs that Core).
+
 ## 1.0.3 (2026-10-30)
 
 - Fixed a piston in a crafting grid breaking crafting: the barrel material recipe threw on it, so with a piston in a backpack's crafting upgrade the backpack wouldn't open (in hand or placed). Any block item whose damage value isn't one of its block's states is now simply not a barrel material.
