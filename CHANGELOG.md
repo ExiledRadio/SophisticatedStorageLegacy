@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 (2026-11-12)
+
+**Requires Sophisticated Core Legacy 1.2.0 or later.**
+
+- **Mangrove, cherry and bamboo** barrels, limited barrels and chests (double chests too), with the original 1.20's art, when a mod adds those woods. Crafted from that wood's planks and slabs, like the other woods.
+- Crimson and warped storages also show with mods whose planks Core didn't know before.
+- **Smithing table:** where a mod adds a smithing table that does netherite upgrades, diamond storages become netherite ones on it, as in the original. They keep their NBT, and a shulker box's or packed storage's slots grow to the netherite tier. The crafting recipe still works.
+- Fixed stairs and some plants (glow lichen, azalea) counting as barrel materials. Only full blocks and glass count, as in the original.
+- Wood names in more languages.
+
 ## 1.0.3 (2026-10-30)
 
 - Fixed a piston in a crafting grid breaking crafting: the barrel material recipe threw on it, so with a piston in a backpack's crafting upgrade the backpack wouldn't open (in hand or placed). Any block item whose damage value isn't one of its block's states is now simply not a barrel material.

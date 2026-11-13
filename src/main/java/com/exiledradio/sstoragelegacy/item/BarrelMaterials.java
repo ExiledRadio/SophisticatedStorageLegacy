@@ -171,6 +171,12 @@ public final class BarrelMaterials {
      */
     @SuppressWarnings("deprecation")
     private static boolean isFullBlockShape(IBlockState state) {
+        // Stairs and many plants have a full selection box in 1.12 but aren't full cubes; glass-like
+        // blocks are the only ones that fill their space without saying so.
+        if (!state.isFullCube() && state.getMaterial() != net.minecraft.block.material.Material.GLASS
+                && !(state.getBlock() instanceof net.minecraft.block.BlockBreakable)) {
+            return false;
+        }
         try {
             return Block.FULL_BLOCK_AABB.equals(state.getBoundingBox(null, net.minecraft.util.math.BlockPos.ORIGIN));
         } catch (RuntimeException e) {

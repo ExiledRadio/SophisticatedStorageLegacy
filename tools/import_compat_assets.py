@@ -1,4 +1,4 @@
-"""Imports the copper and netherite tier and crimson and warped wood assets (GPL) for the
+"""Imports the copper and netherite tier and crimson, warped, mangrove, cherry and bamboo wood assets (GPL) for the
 compat tiers and woods, which exist when another mod adds those materials.
 
 Usage:
@@ -41,6 +41,14 @@ def main():
         copies.append((ref118, "entity/chest/%s.png" % wood))
         for side in ("left", "right"):
             copies.append((ref120, "entity/chest/%s_%s.png" % (side, wood)))
+    # Mangrove, cherry and bamboo exist only from the 1.20.x branch (a41c8065) on.
+    for wood in ("mangrove", "cherry", "bamboo"):
+        for face in ("top", "top_open", "side", "bottom"):
+            copies.append((ref120, "block/%s_barrel_%s.png" % (wood, face)))
+        for n in range(1, 5):
+            copies.append((ref120, "block/limited_%s_barrel_%d_top.png" % (wood, n)))
+        for side in ("", "left_", "right_"):
+            copies.append((ref120, "entity/chest/%s%s.png" % (side, wood)))
     upgrades = ["basic_to_copper", "copper_to_iron", "copper_to_gold", "copper_to_diamond", "copper_to_netherite",
                 "basic_to_netherite", "iron_to_netherite", "gold_to_netherite", "diamond_to_netherite"]
     for name in upgrades:
