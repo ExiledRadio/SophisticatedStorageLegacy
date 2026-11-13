@@ -4,6 +4,7 @@
 
 **Requires Sophisticated Core Legacy 1.2.0 or later.**
 
+- **Settings screen:** this mod's settings are in Sophisticated Core's settings screen (Config button in Mods). The .cfg file doesn't change.
 - **Mangrove, cherry and bamboo** barrels, limited barrels and chests (double chests too), with the original 1.20's art, when a mod adds those woods. Crafted from that wood's planks and slabs, like the other woods.
 - Crimson and warped storages also show with mods whose planks Core didn't know before.
 - **Smithing table:** where a mod adds a smithing table that does netherite upgrades, diamond storages become netherite ones on it, as in the original. They keep their NBT, and a shulker box's or packed storage's slots grow to the netherite tier. The crafting recipe still works.
