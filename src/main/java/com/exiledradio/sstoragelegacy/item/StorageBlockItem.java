@@ -49,6 +49,15 @@ public class StorageBlockItem extends ItemBlock {
     @Override
     public void onCreated(@Nonnull ItemStack stack, @Nonnull World world, @Nonnull net.minecraft.entity.player.EntityPlayer player) {
         super.onCreated(stack, world, player);
+        applySmithed(stack);
+    }
+
+    /**
+     * A smithed storage loses its marker and grows its carried contents, once. Called on taking the
+     * result, and again on its first tick in an inventory and on placing it, since a table may call
+     * {@link #onCreated} on a copy of what the player gets (Trails &amp; Tales' does).
+     */
+    private static void applySmithed(ItemStack stack) {
         net.minecraft.nbt.NBTTagCompound tag = stack.getTagCompound();
         if (tag != null && tag.hasKey(SMITHED_FROM_TAG)) {
             net.minecraft.block.Block from = net.minecraft.block.Block.getBlockFromName(tag.getString(SMITHED_FROM_TAG));
@@ -59,6 +68,14 @@ public class StorageBlockItem extends ItemBlock {
             if (from != null) {
                 com.exiledradio.sstoragelegacy.crafting.StorageTierUpgradeRecipe.growCarriedContents(stack, from);
             }
+        }
+    }
+
+    @Override
+    public void onUpdate(@Nonnull ItemStack stack, @Nonnull World world, @Nonnull net.minecraft.entity.Entity entity, int itemSlot, boolean isSelected) {
+        super.onUpdate(stack, world, entity, itemSlot, isSelected);
+        if (!world.isRemote) {
+            applySmithed(stack);
         }
     }
 
@@ -79,6 +96,7 @@ public class StorageBlockItem extends ItemBlock {
     @Override
     public boolean placeBlockAt(@Nonnull ItemStack stack, @Nonnull net.minecraft.entity.player.EntityPlayer player, @Nonnull World world, @Nonnull net.minecraft.util.math.BlockPos pos,
                                 net.minecraft.util.EnumFacing side, float hitX, float hitY, float hitZ, @Nonnull net.minecraft.block.state.IBlockState newState) {
+        applySmithed(stack);
         if (StorageItemData.isDoubleChest(stack) && getBlock() instanceof com.exiledradio.sstoragelegacy.block.ChestBlock
                 && !com.exiledradio.sstoragelegacy.block.ChestBlock.canPlaceDoubleChest(world, pos, player)) {
             return false;
