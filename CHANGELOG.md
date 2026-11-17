@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fixed netherite storages made on Trails & Tales Backport's smithing table (and shift-clicked off Nether Update Backport's) keeping a leftover tag and, for shulker boxes and packed storages, the diamond tier's slots. They now grow to the netherite tier on their first tick in your inventory or when placed.
+
 ## 1.1.0 (2026-11-12)
 
 **Requires Sophisticated Core Legacy 1.2.0 or later.**
